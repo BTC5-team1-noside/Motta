@@ -8,7 +8,7 @@ module.exports = {
   development: {
     client: 'pg',
     connection: {
-      user: process.env.DB_USER || 'user',
+      user: process.env.DB_USER || 'yokota',
       database: process.env.DB_NAME || 'motta',
     },
     migrations: {
