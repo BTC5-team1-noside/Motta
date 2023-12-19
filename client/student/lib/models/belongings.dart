@@ -1,5 +1,3 @@
-import "package:flutter/material.dart";
-
 class Date {
   Date({required this.dateTime});
   final DateTime dateTime;
@@ -21,8 +19,8 @@ class Subject {
   final List<String> belongings;
 }
 
-class DayBelonging {
-  DayBelonging(
+class DayBelongings {
+  DayBelongings(
       {required this.selectedDate,
       required this.subjects,
       required this.items});
