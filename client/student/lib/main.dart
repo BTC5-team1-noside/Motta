@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
+// import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:student/screens/gamescreen.dart';
 
 void main() {
-  runApp(const MyApp());
+  const app = MyApp();
+  runApp(app);
 }
 
 class MyApp extends StatelessWidget {
