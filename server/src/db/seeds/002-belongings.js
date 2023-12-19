@@ -4,7 +4,7 @@
  */
 exports.seed = async function (knex) {
   // Deletes ALL existing entries
-  await knex("belongings").del();
+  // await knex("belongings").del();
   await knex("belongings").insert([
     { subject_id: 1, belonging_name: "国語の教科書" },
     { subject_id: 1, belonging_name: "国語のノート" },
